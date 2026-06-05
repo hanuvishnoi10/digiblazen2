@@ -58,6 +58,7 @@ export default function App() {
     };
   });
 
+
   const handleUpdateStoreSettings = (newSettings: { logoUrl: string; storeName: string; storeSlogan: string }) => {
     setStoreSettings(newSettings);
     localStorage.setItem("digitalblazen_store_settings", JSON.stringify(newSettings));
@@ -271,6 +272,23 @@ export default function App() {
                       window.scrollTo({ top: 0, behavior: "smooth" });
                     }}
                   />
+
+<section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-12">
+  <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+    Digital Blazen
+  </h1>
+
+  <h2 className="text-xl md:text-2xl text-primary-neon mb-6">
+    Premium Digital Products & AI Tools
+  </h2>
+
+  <p className="text-gray-300 max-w-3xl mx-auto leading-relaxed">
+    Digital Blazen offers AI tools, software tools, digital products,
+    premium templates, business resources, productivity solutions,
+    marketing tools and online assets for creators, freelancers,
+    entrepreneurs and growing businesses.
+  </p>
+</section>
 
                   {/* Curated visual showcases of top assets - 3 columns inside a styled frame */}
                   <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 relative">
