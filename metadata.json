@@ -1,0 +1,8 @@
+{
+  "name": "Digital Blazen",
+  "description": "Premium online store for high-fidelity digital assets, templates, courses, and resources with an integrated admin panel and AI copywriting tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
